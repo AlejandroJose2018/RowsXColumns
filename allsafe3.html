@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="description" content="programacion en javascript">
+    <meta name="keywords" content="html, css, javascript">
+    <meta charset="utf-8">
+    <title>Proff</title>
+    <style media="screen">
+      body
+      {
+        background-color: #012368;
+        color: #dbe7ff;
+        font-family: helvetica;
+      }
+      span{
+        color: #02cae0;
+        font-size: 40px;
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 align="center"><span>Proff Of Work</span></h1>
+      <time datetime="28-03-2019">Publicado 28-03-2019</time>
+    </header>
+    <figure>
+      <img src="mapa.png" alt="cargar imagen">
+      <figcaption>aqui va el mapa</figcaption>
+    </figure>
+    <nav>
+      <table border="2">
+        <tr>
+          <th>lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+          <th>sabado</th>
+          <th>Domingo</th>
+        </tr>
+        <tr>
+          <td>
+            <ol>
+              <li>Bitcoin</li>
+              <li>Litecoin</li>
+              <li>Developers</li>
+              <li>Java</li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li>Bitcoin</li>
+              <li>Litecoin</li>
+              <li>Developers</li>
+              <li>Java</li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li>Bitcoin</li>
+              <li>Litecoin</li>
+              <li>Developers</li>
+              <li>Java</li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li>Bitcoin</li>
+              <li>Litecoin</li>
+              <li>Developers</li>
+              <li>Java</li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li>Bitcoin</li>
+              <li>Litecoin</li>
+              <li>Developers</li>
+              <li>Java</li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li>Bitcoin</li>
+              <li>Litecoin</li>
+              <li>Developers</li>
+              <li>Java</li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li>Bitcoin</li>
+              <li>Litecoin</li>
+              <li>Developers</li>
+              <li>Java</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+    </nav>
+    <section>
+      <article class="Noticias">
+        <h2>Titulo de la notocia</h2>
+        <h3>Subtitulo de la Noticia</h3>
+      </article>
+      <p>Desarrollo de la noticia</p>
+      <footer><a href="www.google.com" target="_blank"><time datetime="28-03-2019">28-03-2019</time></a> </footer>
+    </section>
+    <aside class="barra_lateral">
+      <blockquote cite="Titulo de la Noticia">
+        Mensaje numero 1
+      </blockquote>
+      <blockquote cite="Titulo de la noticia">
+        Mensaje numero 2
+      </blockquote>
+    </aside>
+    <footer>
+      <a href="www.comercio.com" target="_blank">enlace a noticias</a><br>
+      Todos los Derechos Reservados
+      <time>28 de marzo del 2019</time>
+    </footer>
+    <p>
+      <input type="text" name="" value="" id="cajita">
+      <input type="button" id="botoncito">
+    </p>
+    <canvas id="uni" width="500" height="500"></canvas>
+    <script type="text/javascript">
+    var doc = document.getElementById("uni");
+    var leaf = doc.getContext("2d");
+
+
+
+    function dibujarLineas(color, xinicial, yinicial, xfinal, yfinal)
+    {
+      leaf.beginPath();
+      leaf.strokeStyle= color;
+      leaf.moveTo(xinical, yinicial);
+      leaf.lineTo(xfinal, yfinal);
+      leaf.stroke();
+      leaf.closePath;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
